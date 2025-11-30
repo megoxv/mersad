@@ -1,6 +1,8 @@
 name: Monitor Status
 
 on:
+  schedule:
+    - cron: '*/5 * * * *'  # Run every 5 minutes
   repository_dispatch:
     types: [trigger-monitor]
   workflow_dispatch: # Allow manual trigger
