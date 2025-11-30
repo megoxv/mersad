@@ -26,7 +26,7 @@ jobs:
         run: npm ci
 
       - name: Run Monitor Script
-        run: npx ts-node scripts/monitor.ts
+        run: npx tsx scripts/monitor.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
