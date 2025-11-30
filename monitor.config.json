@@ -1,0 +1,14 @@
+[
+    {
+        "id": "google-dns",
+        "name": "Google DNS",
+        "url": "https://dns.google",
+        "method": "GET"
+    },
+    {
+        "id": "cloudflare-dns",
+        "name": "Cloudflare DNS",
+        "url": "https://1.1.1.1",
+        "method": "GET"
+    }
+]
