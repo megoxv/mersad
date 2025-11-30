@@ -35,7 +35,7 @@ export function Dashboard() {
                 const repo = process.env.NEXT_PUBLIC_REPO_NAME || 'mersad'
                 const branch = 'main'
 
-                const isDev = process.env.NODE_ENV === 'development'
+                const isDev = process.env.NODE_ENV === 'development' || process.env.NEXT_PUBLIC_USE_DEMO_DATA === 'true'
                 const configUrl = isDev ? '/api/monitor-config' : `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/monitor.config.json`
                 const dataUrl = isDev ? '/api/status-data' : `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/status-data.json`
 

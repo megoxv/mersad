@@ -83,6 +83,7 @@ Create a new repository on GitHub and push your code.
 | `GITHUB_PAT` | A Personal Access Token with `repo` scope (to trigger Actions). |
 | `NEXT_PUBLIC_REPO_OWNER` | Your GitHub username (e.g., `megoxv`). |
 | `NEXT_PUBLIC_REPO_NAME` | Your repository name (e.g., `mersad`). |
+| `NEXT_PUBLIC_USE_DEMO_DATA` | Set to `true` to use demo data instead of GitHub Actions. |
 
 3.  Deploy!
 
